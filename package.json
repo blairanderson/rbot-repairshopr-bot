@@ -1,9 +1,9 @@
 {
   "name": "rbot-repairshopr-bot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
-  "author": "blair",
-  "description": "A simple helpful robot for your Company",
+  "author": "blair anderson",
+  "description": "The RepairShopr Bot!",
   "dependencies": {
     "hubot": "^2.11.0",
     "hubot-deploy": "^0.6.51",
