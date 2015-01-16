@@ -1,0 +1,18 @@
+{
+  "hubot": {
+    "provider": "heroku",
+    "repository": "blairanderson/rbot-repairshopr-bot",
+    "environments": ["production"],
+
+    "heroku_production_name": "repairshopr-bot"
+  },
+
+  "staging": {
+    "provider": "heroku",
+    "repository": "RepairShopr/RepairShopr",
+    "environments": ["staging", "stagingworker"],
+    
+    "heroku_staging_name": "my-org-www-staging",
+    "heroku_stagingworker_name": "my-org-www"
+  }
+}
